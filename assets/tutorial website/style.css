@@ -1,0 +1,44 @@
+.brand-gradient {
+  /** TEXT GRADIENT */
+  background: #ff0000;
+  background: linear-gradient(to right, #ff0000 0%, #000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.full-width {
+  width: 100%;
+  height: auto;
+}
+
+.feature-item img {
+  width: 50px;
+  height: auto;
+}
+
+body {
+  background: #f6f8f9;
+  background: repeating-radial-gradient(
+    ellipse farthest-side at bottom left,
+    #f6f8f9 0%,
+    #e5ebee 30%,
+    #d7dee3 60%,
+    #f5f7f9 100%
+  );
+}
+
+.subscribe {
+  background-image: url("img/03img.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.brand-icon img {
+  width: 150px;
+  height: auto;
+}
+
+.blur-filter {
+  backdrop-filter: blur(8px);
+  background-color: rgba(255 255 255 / 30%);
+}
